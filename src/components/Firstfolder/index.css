@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titlebar {
+  height: 10vh;
+  background-color: #3367d6;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.photu {
+  height: 30px;
+  width: 100px;
+  margin: 25px;
+}
+
+.input1 {
+  background-color: #2850a7;
+  outline: none;
+  width: 290px;
+  height: 30px;
+  border-color: #6697ff;
+  border-width: 1px;
+}
+
+.searching {
+  background-color: #2850a7;
+  height: 30px;
+  border-color: #6697ff;
+  border-width: 1px;
+}
+
+.mixi {
+  display: flex;
+  text-align: center;
+
+  padding-left: 290px;
+}
+
+.bg-container2 {
+  width: 95%;
+  max-height: 85vh;
+}
+
+.card2 {
+  display: flex;
+  background-color: orange;
+}
+
+.magar {
+  height: 20px;
+  width: 20px;
+}
+
+.napani {
+  background-color: orange;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.chuled {
+  display: flex;
+  margin-left: 7%;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.manchala {
+  display: flex;
+  margin-left: 10px;
+  font-size: 10px;
+  background-color: red;
+  height: 15px;
+}
+
+.titli {
+  font-size: 14px;
+}
+
+.bin {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mala {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.brar {
+  display: flex;
+}
+
+.list1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
